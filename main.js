@@ -4,7 +4,7 @@
 
 // Lazy loader base path
 const LAZY_BASE = 'https://cdn.jsdelivr.net/gh/blurplebun/blurplebun.github.io@latest/';
-const LOCAL_MODE = 0; // if you don't use a cdn service to load images, just set this to true
+const LOCAL_MODE = true; // if you don't use a cdn service to load images, just set this to true
 
 // Sound control
 const INIT_MASTER_VOL = 1;
@@ -1784,3 +1784,4 @@ window.addEventListener('load', () => {
     initMainMenu();
     appLoaded = true;
 });
+
