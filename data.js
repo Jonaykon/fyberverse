@@ -5200,7 +5200,7 @@ let menuItems = [
         color: 'var(--color-11)',
         orbit: 4,
         scale: 1.5,
-        hidden: true,
+        hidden: false,
         labels: [
             {
                 cardId: 'kofi',
