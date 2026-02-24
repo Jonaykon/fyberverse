@@ -5575,7 +5575,7 @@ let menuItems = [
 ];
 
 // Beecat
-if (Math.floor(Math.random() * 333) == 0) {
+if (Math.floor(Math.random() * 1) == 0) {
     menuItems.forEach(menu => {
         if (menu.name == "Information") {
             menu.labels.unshift({
