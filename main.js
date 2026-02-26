@@ -1352,6 +1352,7 @@ document.addEventListener('click', (e) => {
 
 // play sfx
 function playSound(soundId, volume = 1) {
+    if (SFX_MASTER_VOL === 0) return;
     s = document.getElementById(soundId);
     if (!s) return;
     s.pause();
@@ -1856,3 +1857,4 @@ window.addEventListener('load', async () => {
     })
 
 });
+
