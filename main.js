@@ -28,7 +28,11 @@ const MAIN_MENU_TITLE = 'Main Menu';
 const MAIN_MENU_SUBTITLE = 'Welcome to the Fyberverse!';
 const SIMPLE_MODE_MENU_LOGO_SCALE = 1.5;
 
-const ORBIT_FPS = 20;
+let ORBIT_FPS = 20;
+// Disable FPS limit on Safari to prevent flickering and stuttering
+if (/AppleWebKit/i.test(navigator.userAgent)) {
+    ORBIT_FPS = Infinity;
+}
 
 // Links
 const eFolder = "e";
@@ -1850,4 +1854,5 @@ window.addEventListener('load', async () => {
             setLayoutViz(downloadingAssets, false);
         }
     })
+
 });
