@@ -1117,10 +1117,10 @@ let menuItems = [
                 reference: 'deltadim-teksui:artibun',
             },
             {
-                reference: 'deltadim-deltaspace:skitty',
+                reference: 'deltadim-teksui:skitty',
             },
             {
-                reference: 'deltadim-deltaspace:gamma',
+                reference: 'deltadim-teksui:gamma',
             },
             {
                 reference: 'deltadim-teksui:artifish',
@@ -1729,6 +1729,160 @@ let menuItems = [
                 ],
 
                 image: 'images/i/elise-i.png',
+            },
+            {
+                cardId: 'skitty',
+                title: 'Singularikitty',
+                subtitle: '',
+                detail: `
+                Singularikitty is a black cat with red fur on his arms and legs, orange eyes, and a ring on the tip of his tail. He always wears a collar that holds a small black hole which they can deploy anytime.<br>
+                <br>
+                Skitty's eyes and mouth essentially function as black holes, which sucks in anything that gets nearby. However, she doesn't use this power to harm others, as she is a very kind and gentle cat. She constantly warn people to not get nearby his face for that matter.<br>
+                <br>
+                Skitty has an ability to grow or shrink in size as he pleases. He also can toggle the black hole on his collar whenever he wants.<br>
+                <br>
+                'DESTROYER' is the name Skitty given to his black hole.`,
+
+                isCharacter: true,
+                species: 'Cat',
+                pronouns: 'Any Pronouns',
+                gender: 'Polygender',
+                sexuality: 'Aroace',
+                aliases: 'Skitty',
+                characterAttrs: {
+                    'Design Origin': '<a href="https://x.com/C0denameDelta" target="_blank">C0denameDelta</a>',
+                },
+                extra: '',
+                refsheet: 'images/r/skitty-r.png',
+                gallery: [
+                    'images/c/skitty-c.png',
+                    'images/c/skitty-c2.png',
+                    'images/c/skitty-c3.png',
+                    'images/c/skitty-c4.png',
+                    'images/c/skitty-c5.png',
+                    'images/c/skitty-c6.png',
+                    'images/c/skitty-c7.png',
+                    'images/c/skitty-c8.png',
+                    'images/c/skitty-c9.png',
+                    'images/c/skitty-c10.png',
+                    'images/c/skitty-c11.png',
+                    'images/c/skitty-c12.png',
+                    'images/c/skitty-c13.png',
+                    'images/c/skitty-c14.png',
+                    'images/c/skitty-c15.png',
+                    'images/c/skitty-c16.png',
+                ],
+                relatives: [
+                    {
+                        cardId: 'deltadim-teksui:gamma',
+                        relation: 'Spacekitty Trio'
+                    },
+                    {
+                        cardId: 'deltadim-teksui:micro',
+                        relation: 'Spacekitty Trio'
+                    },
+                ],
+
+                image: 'images/i/skitty-i.png',
+            },
+            {
+                cardId: 'gamma',
+                title: 'Gamma',
+                subtitle: '',
+                detail: `
+                Gamma is a white cat with blue fur on her arms and legs, dark inverted blue eyes, a long hair, and a ring on the tip of her tail. Her color scheme is essentially Skitty's inverted colors.<br>
+                <br>
+                Gamma is a very shy and soft person. She always wears a blue collar that holds a small white hole which she can deploy anytime. Her white hole ejects anything that gets nearby. As such, she is very warm due to constant radiation emitted from her body.<br>
+                <br>
+                Gamma has an ability to grow or shrink in size as she pleases. She also can toggle the white hole on her collar whenever she wants.<br>
+                <br>
+                Despite being a complete opposite of Skitty, Gamma confirmed that she is not his sibling, as the matter that she spew out does not come from Skitty's black hole. She's still speculating where it comes from...<br>
+                <br>
+                'RESTORER' is the name Gamma given to her white hole.`,
+
+                isCharacter: true,
+                species: 'Cat',
+                pronouns: 'She',
+                gender: 'Female',
+                sexuality: 'Bisexual',
+                aliases: '',
+                extra: '',
+                refsheet: 'images/r/gamma-r.png',
+                gallery: [
+                    'images/c/gamma-c.png',
+                    'images/c/gamma-c2.png',
+                    'images/c/gamma-c3.png',
+                    'images/c/gamma-c4.png',
+                    'images/c/gamma-c5.png',
+                    'images/c/gamma-c6.png',
+                    'images/c/gamma-c7.png',
+                    'images/c/gamma-c9.png',
+                    'images/c/gamma-c10.png',
+                    'images/c/gamma-c11.png',
+                ],
+                relatives: [
+                    {
+                        cardId: 'deltadim-teksui:skitty',
+                        relation: 'Spacekitty Trio'
+                    },
+                    {
+                        cardId: 'deltadim-teksui:micro',
+                        relation: 'Spacekitty Trio'
+                    },
+                ],
+
+                image: 'images/i/gamma-i.png',
+            },
+            {
+                cardId: 'micro',
+                title: 'Micro',
+                subtitle: '',
+                detail: `
+                Micro is a non-binary dark purple cat with half of their body parts (eyes, pawpads, glows, etc.) in blue while the other half is in pink. They always wear a blue collar with a pink bell. They also sometimes wear an air bubble on their head purely for cosmetic.<br>
+                <br>
+                As a space cat, Micro doesn't need to breathe to survive. They also don't need to consume food or drink, as they have no mouth. This also makes them mute. They communicate through body language and writing on a small board they always carry around.<br>
+                <br>
+                Micro has a flying saucer that they use to travel long-distances in space. The saucer is also a storage for all sorts of thing they collect from their travels.<br>
+                <br>
+                They possess a power of vacuum manipulation, albeit they don't really use it often as it is very limited. They can push and pull objects by controlling the vacuum around them.
+                `,
+
+                isCharacter: true,
+                species: 'Cat',
+                pronouns: 'They',
+                gender: 'Non-binary',
+                flags: ['xenogender'],
+                sexuality: 'Omnisexual',
+                aliases: '',
+                extra: '',
+                refsheet: 'images/r/micro-r.png',
+                gallery: [
+                    'images/c/micro-c2.png',
+                    'images/c/micro-c.png',
+                    'images/c/micro-c3.png',
+                    'images/c/micro-c4.png',
+                    'images/c/micro-c5.png',
+                    'images/c/micro-c6.png',
+                    'images/c/micro-c7.png',
+                    'images/c/micro-c8.png',
+                    'images/c/micro-c9.png',
+                    'images/c/micro-c10.png',
+                    'images/c/micro-c11.png',
+                    'images/c/micro-c12.png',
+                    'images/c/micro-c13.png',
+                ],
+                relatives: [
+                    {
+                        cardId: 'deltadim-teksui:gamma',
+                        relation: 'Spacekitty Trio'
+                    },
+                    {
+                        cardId: 'deltadim-teksui:skitty',
+                        relation: 'Spacekitty Trio'
+                    },
+                ],
+
+                image: 'images/i/micro-i.png',
             },
             {
                 cardId: 'fika',
@@ -2520,160 +2674,6 @@ let menuItems = [
         parent: 'deltadim',
         hidden: true,
         cards: [
-            {
-                cardId: 'skitty',
-                title: 'Singularikitty',
-                subtitle: '',
-                detail: `
-                Singularikitty is a black cat with red fur on his arms and legs, orange eyes, and a ring on the tip of his tail. He always wears a collar that holds a small black hole which they can deploy anytime.<br>
-                <br>
-                Skitty's eyes and mouth essentially function as black holes, which sucks in anything that gets nearby. However, she doesn't use this power to harm others, as she is a very kind and gentle cat. She constantly warn people to not get nearby his face for that matter.<br>
-                <br>
-                Skitty has an ability to grow or shrink in size as he pleases. He also can toggle the black hole on his collar whenever he wants.<br>
-                <br>
-                'DESTROYER' is the name Skitty given to his black hole.`,
-
-                isCharacter: true,
-                species: 'Cat',
-                pronouns: 'Any Pronouns',
-                gender: 'Polygender',
-                sexuality: 'Aroace',
-                aliases: 'Skitty',
-                characterAttrs: {
-                    'Design Origin': '<a href="https://x.com/C0denameDelta" target="_blank">C0denameDelta</a>',
-                },
-                extra: '',
-                refsheet: 'images/r/skitty-r.png',
-                gallery: [
-                    'images/c/skitty-c.png',
-                    'images/c/skitty-c2.png',
-                    'images/c/skitty-c3.png',
-                    'images/c/skitty-c4.png',
-                    'images/c/skitty-c5.png',
-                    'images/c/skitty-c6.png',
-                    'images/c/skitty-c7.png',
-                    'images/c/skitty-c8.png',
-                    'images/c/skitty-c9.png',
-                    'images/c/skitty-c10.png',
-                    'images/c/skitty-c11.png',
-                    'images/c/skitty-c12.png',
-                    'images/c/skitty-c13.png',
-                    'images/c/skitty-c14.png',
-                    'images/c/skitty-c15.png',
-                    'images/c/skitty-c16.png',
-                ],
-                relatives: [
-                    {
-                        cardId: 'deltadim-deltaspace:gamma',
-                        relation: 'Spacekitty Trio'
-                    },
-                    {
-                        cardId: 'deltadim-deltaspace:micro',
-                        relation: 'Spacekitty Trio'
-                    },
-                ],
-
-                image: 'images/i/skitty-i.png',
-            },
-            {
-                cardId: 'gamma',
-                title: 'Gamma',
-                subtitle: '',
-                detail: `
-                Gamma is a white cat with blue fur on her arms and legs, dark inverted blue eyes, a long hair, and a ring on the tip of her tail. Her color scheme is essentially Skitty's inverted colors.<br>
-                <br>
-                Gamma is a very shy and soft person. She always wears a blue collar that holds a small white hole which she can deploy anytime. Her white hole ejects anything that gets nearby. As such, she is very warm due to constant radiation emitted from her body.<br>
-                <br>
-                Gamma has an ability to grow or shrink in size as she pleases. She also can toggle the white hole on her collar whenever she wants.<br>
-                <br>
-                Despite being a complete opposite of Skitty, Gamma confirmed that she is not his sibling, as the matter that she spew out does not come from Skitty's black hole. She's still speculating where it comes from...<br>
-                <br>
-                'RESTORER' is the name Gamma given to her white hole.`,
-
-                isCharacter: true,
-                species: 'Cat',
-                pronouns: 'She',
-                gender: 'Female',
-                sexuality: 'Bisexual',
-                aliases: '',
-                extra: '',
-                refsheet: 'images/r/gamma-r.png',
-                gallery: [
-                    'images/c/gamma-c.png',
-                    'images/c/gamma-c2.png',
-                    'images/c/gamma-c3.png',
-                    'images/c/gamma-c4.png',
-                    'images/c/gamma-c5.png',
-                    'images/c/gamma-c6.png',
-                    'images/c/gamma-c7.png',
-                    'images/c/gamma-c9.png',
-                    'images/c/gamma-c10.png',
-                    'images/c/gamma-c11.png',
-                ],
-                relatives: [
-                    {
-                        cardId: 'deltadim-deltaspace:skitty',
-                        relation: 'Spacekitty Trio'
-                    },
-                    {
-                        cardId: 'deltadim-deltaspace:micro',
-                        relation: 'Spacekitty Trio'
-                    },
-                ],
-
-                image: 'images/i/gamma-i.png',
-            },
-            {
-                cardId: 'micro',
-                title: 'Micro',
-                subtitle: '',
-                detail: `
-                Micro is a non-binary dark purple cat with half of their body parts (eyes, pawpads, glows, etc.) in blue while the other half is in pink. They always wear a blue collar with a pink bell. They also sometimes wear an air bubble on their head purely for cosmetic.<br>
-                <br>
-                As a space cat, Micro doesn't need to breathe to survive. They also don't need to consume food or drink, as they have no mouth. This also makes them mute. They communicate through body language and writing on a small board they always carry around.<br>
-                <br>
-                Micro has a flying saucer that they use to travel long-distances in space. The saucer is also a storage for all sorts of thing they collect from their travels.<br>
-                <br>
-                They possess a power of vacuum manipulation, albeit they don't really use it often as it is very limited. They can push and pull objects by controlling the vacuum around them.
-                `,
-
-                isCharacter: true,
-                species: 'Cat',
-                pronouns: 'They',
-                gender: 'Non-binary',
-                flags: ['xenogender'],
-                sexuality: 'Omnisexual',
-                aliases: '',
-                extra: '',
-                refsheet: 'images/r/micro-r.png',
-                gallery: [
-                    'images/c/micro-c2.png',
-                    'images/c/micro-c.png',
-                    'images/c/micro-c3.png',
-                    'images/c/micro-c4.png',
-                    'images/c/micro-c5.png',
-                    'images/c/micro-c6.png',
-                    'images/c/micro-c7.png',
-                    'images/c/micro-c8.png',
-                    'images/c/micro-c9.png',
-                    'images/c/micro-c10.png',
-                    'images/c/micro-c11.png',
-                    'images/c/micro-c12.png',
-                    'images/c/micro-c13.png',
-                ],
-                relatives: [
-                    {
-                        cardId: 'deltadim-deltaspace:gamma',
-                        relation: 'Spacekitty Trio'
-                    },
-                    {
-                        cardId: 'deltadim-deltaspace:skitty',
-                        relation: 'Spacekitty Trio'
-                    },
-                ],
-
-                image: 'images/i/micro-i.png',
-            },
             {
                 cardId: 'artilotl',
                 title: 'Artilotl',
