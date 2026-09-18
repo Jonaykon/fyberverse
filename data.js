@@ -1023,6 +1023,59 @@ let menuItems = [
 
                 image: 'images/flories/uncat/Teknia.png'
             },
+            {
+                cardId: 'gamma',
+                title: 'Gamma',
+                subtitle: '',
+                detail: `
+                Gamma is a white cat with blue fur on her arms and legs, dark inverted blue eyes, a long hair, and a ring on the tip of her tail. Her color scheme is essentially Skitty's inverted colors.<br>
+                <br>
+                Gamma is a very shy and soft person. She always wears a blue collar that holds a small white hole which she can deploy anytime. Her white hole ejects anything that gets nearby. As such, she is very warm due to constant radiation emitted from her body.<br>
+                <br>
+                Gamma has an ability to grow or shrink in size as she pleases. She also can toggle the white hole on her collar whenever she wants.<br>
+                <br>
+                Despite being a complete opposite of Skitty, Gamma confirmed that she is not his sibling, as the matter that she spew out does not come from Skitty's black hole. She's still speculating where it comes from...<br>
+                <br>
+                'RESTORER' is the name Gamma given to her white hole.`,
+
+                isCharacter: true,
+                species: 'Cat',
+                pronouns: 'She',
+                gender: 'Female',
+                sexuality: 'Bisexual',
+                aliases: '',
+                extra: '',
+                characterAttrs: {
+                    'Last seen': 'Day 990',
+                    'Missing since': 'Day 992',
+                    'Realm Origin': '<a data-open-card="deltadim-teksui">Deltadim - Teksui</a>',
+                },
+                refsheet: 'images/r/gamma-r.png',
+                gallery: [
+                    'images/c/gamma-c.png',
+                    'images/c/gamma-c2.png',
+                    'images/c/gamma-c3.png',
+                    'images/c/gamma-c4.png',
+                    'images/c/gamma-c5.png',
+                    'images/c/gamma-c6.png',
+                    'images/c/gamma-c7.png',
+                    'images/c/gamma-c9.png',
+                    'images/c/gamma-c10.png',
+                    'images/c/gamma-c11.png',
+                ],
+                relatives: [
+                    {
+                        cardId: 'deltadim-teksui:skitty',
+                        relation: 'Spacekitty Trio'
+                    },
+                    {
+                        cardId: 'deltadim-teksui:micro',
+                        relation: 'Spacekitty Trio'
+                    },
+                ],
+
+                image: 'images/i/gamma-i.png',
+            },
         ]
     },
 
@@ -1120,7 +1173,7 @@ let menuItems = [
                 reference: 'deltadim-teksui:skitty',
             },
             {
-                reference: 'deltadim-teksui:gamma',
+                reference: 'missing:gamma',
             },
             {
                 reference: 'deltadim-teksui:artifish',
@@ -1774,7 +1827,7 @@ let menuItems = [
                 ],
                 relatives: [
                     {
-                        cardId: 'deltadim-teksui:gamma',
+                        cardId: 'missing:gamma',
                         relation: 'Spacekitty Trio'
                     },
                     {
@@ -1784,54 +1837,6 @@ let menuItems = [
                 ],
 
                 image: 'images/i/skitty-i.png',
-            },
-            {
-                cardId: 'gamma',
-                title: 'Gamma',
-                subtitle: '',
-                detail: `
-                Gamma is a white cat with blue fur on her arms and legs, dark inverted blue eyes, a long hair, and a ring on the tip of her tail. Her color scheme is essentially Skitty's inverted colors.<br>
-                <br>
-                Gamma is a very shy and soft person. She always wears a blue collar that holds a small white hole which she can deploy anytime. Her white hole ejects anything that gets nearby. As such, she is very warm due to constant radiation emitted from her body.<br>
-                <br>
-                Gamma has an ability to grow or shrink in size as she pleases. She also can toggle the white hole on her collar whenever she wants.<br>
-                <br>
-                Despite being a complete opposite of Skitty, Gamma confirmed that she is not his sibling, as the matter that she spew out does not come from Skitty's black hole. She's still speculating where it comes from...<br>
-                <br>
-                'RESTORER' is the name Gamma given to her white hole.`,
-
-                isCharacter: true,
-                species: 'Cat',
-                pronouns: 'She',
-                gender: 'Female',
-                sexuality: 'Bisexual',
-                aliases: '',
-                extra: '',
-                refsheet: 'images/r/gamma-r.png',
-                gallery: [
-                    'images/c/gamma-c.png',
-                    'images/c/gamma-c2.png',
-                    'images/c/gamma-c3.png',
-                    'images/c/gamma-c4.png',
-                    'images/c/gamma-c5.png',
-                    'images/c/gamma-c6.png',
-                    'images/c/gamma-c7.png',
-                    'images/c/gamma-c9.png',
-                    'images/c/gamma-c10.png',
-                    'images/c/gamma-c11.png',
-                ],
-                relatives: [
-                    {
-                        cardId: 'deltadim-teksui:skitty',
-                        relation: 'Spacekitty Trio'
-                    },
-                    {
-                        cardId: 'deltadim-teksui:micro',
-                        relation: 'Spacekitty Trio'
-                    },
-                ],
-
-                image: 'images/i/gamma-i.png',
             },
             {
                 cardId: 'micro',
@@ -1873,7 +1878,7 @@ let menuItems = [
                 ],
                 relatives: [
                     {
-                        cardId: 'deltadim-teksui:gamma',
+                        cardId: 'missing:gamma',
                         relation: 'Spacekitty Trio'
                     },
                     {
