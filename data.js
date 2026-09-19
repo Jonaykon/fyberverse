@@ -1076,6 +1076,30 @@ let menuItems = [
 
                 image: 'images/i/gamma-i.png',
             },
+            {
+                cardId: 'lyne',
+                title: 'Lyne',
+                subtitle: '',
+                detail: '',
+
+                isCharacter: true,
+                species: 'Polygon',
+                pronouns: 'They',
+                gender: 'Non-Binary',
+                sexuality: 'Bisexual',
+                aliases: 'Polyne',
+                extra: '',
+                characterAttrs: {
+                    'Realm Origin': '<a data-open-card="hizen">Hizen</a>',
+                },
+                refsheet: 'images/r/lyne-r.png',
+                gallery: [
+                    'images/c/lyne-c.png',
+                    'images/c/lyne-c2.png',
+                ],
+
+                image: 'images/i/lyne-i.png',
+            },
         ]
     },
 
@@ -7214,27 +7238,6 @@ let menuItems = [
                 ],
 
                 image: 'images/i/awan-i.png',
-            },
-            {
-                cardId: 'lyne',
-                title: 'Lyne',
-                subtitle: '',
-                detail: '',
-
-                isCharacter: true,
-                species: 'Polygon',
-                pronouns: 'They',
-                gender: 'Non-Binary',
-                sexuality: 'Bisexual',
-                aliases: 'Polyne',
-                extra: '',
-                refsheet: 'images/r/lyne-r.png',
-                gallery: [
-                    'images/c/lyne-c.png',
-                    'images/c/lyne-c2.png',
-                ],
-
-                image: 'images/i/lyne-i.png',
             },
             {
                 cardId: 'cupid',
