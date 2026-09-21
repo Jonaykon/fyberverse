@@ -1100,6 +1100,60 @@ let menuItems = [
 
                 image: 'images/i/lyne-i.png',
             },
+            {
+                cardId: 'micro',
+                title: 'Micro',
+                subtitle: '',
+                detail: `
+                Micro is a non-binary dark purple cat with half of their body parts (eyes, pawpads, glows, etc.) in blue while the other half is in pink. They always wear a blue collar with a pink bell. They also sometimes wear an air bubble on their head purely for cosmetic.<br>
+                <br>
+                Micro has a flying saucer that they use to travel long-distances in space. The saucer is also a storage for all sorts of thing they collect from their travels.<br>
+                <br>
+                They possess a power of vacuum manipulation, albeit they don't really use it often as it is very limited. They can push and pull objects by controlling the vacuum around them.
+                `,
+
+                isCharacter: true,
+                species: 'Cat',
+                pronouns: 'They',
+                gender: 'Non-binary',
+                flags: ['xenogender'],
+                sexuality: 'Omnisexual',
+                aliases: '',
+                extra: '',
+                characterAttrs: {
+                    'Last seen': 'Day 995',
+                    'Missing since': 'Day 995',
+                    'Realm Origin': '<a data-open-card="deltadim-teksui">Deltadim - Teksui</a>',
+                },
+                refsheet: 'images/r/micro-r.png',
+                gallery: [
+                    'images/c/micro-c2.png',
+                    'images/c/micro-c.png',
+                    'images/c/micro-c3.png',
+                    'images/c/micro-c4.png',
+                    'images/c/micro-c5.png',
+                    'images/c/micro-c6.png',
+                    'images/c/micro-c7.png',
+                    'images/c/micro-c8.png',
+                    'images/c/micro-c9.png',
+                    'images/c/micro-c10.png',
+                    'images/c/micro-c11.png',
+                    'images/c/micro-c12.png',
+                    'images/c/micro-c13.png',
+                ],
+                relatives: [
+                    {
+                        cardId: 'missing:gamma',
+                        relation: 'Spacekitty Trio'
+                    },
+                    {
+                        cardId: 'deltadim-chromasia:skitty',
+                        relation: 'Spacekitty Trio'
+                    },
+                ],
+
+                image: 'images/i/micro-i.png',
+            },
         ]
     },
 
@@ -1806,55 +1860,6 @@ let menuItems = [
                 ],
 
                 image: 'images/i/elise-i.png',
-            },
-            {
-                cardId: 'micro',
-                title: 'Micro',
-                subtitle: '',
-                detail: `
-                Micro is a non-binary dark purple cat with half of their body parts (eyes, pawpads, glows, etc.) in blue while the other half is in pink. They always wear a blue collar with a pink bell. They also sometimes wear an air bubble on their head purely for cosmetic.<br>
-                <br>
-                Micro has a flying saucer that they use to travel long-distances in space. The saucer is also a storage for all sorts of thing they collect from their travels.<br>
-                <br>
-                They possess a power of vacuum manipulation, albeit they don't really use it often as it is very limited. They can push and pull objects by controlling the vacuum around them.
-                `,
-
-                isCharacter: true,
-                species: 'Cat',
-                pronouns: 'They',
-                gender: 'Non-binary',
-                flags: ['xenogender'],
-                sexuality: 'Omnisexual',
-                aliases: '',
-                extra: '',
-                refsheet: 'images/r/micro-r.png',
-                gallery: [
-                    'images/c/micro-c2.png',
-                    'images/c/micro-c.png',
-                    'images/c/micro-c3.png',
-                    'images/c/micro-c4.png',
-                    'images/c/micro-c5.png',
-                    'images/c/micro-c6.png',
-                    'images/c/micro-c7.png',
-                    'images/c/micro-c8.png',
-                    'images/c/micro-c9.png',
-                    'images/c/micro-c10.png',
-                    'images/c/micro-c11.png',
-                    'images/c/micro-c12.png',
-                    'images/c/micro-c13.png',
-                ],
-                relatives: [
-                    {
-                        cardId: 'missing:gamma',
-                        relation: 'Spacekitty Trio'
-                    },
-                    {
-                        cardId: 'deltadim-chromasia:skitty',
-                        relation: 'Spacekitty Trio'
-                    },
-                ],
-
-                image: 'images/i/micro-i.png',
             },
             {
                 cardId: 'fika',
