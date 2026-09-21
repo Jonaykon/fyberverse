@@ -1065,7 +1065,7 @@ let menuItems = [
                 ],
                 relatives: [
                     {
-                        cardId: 'deltadim-teksui:skitty',
+                        cardId: 'deltadim-chromasia:skitty',
                         relation: 'Spacekitty Trio'
                     },
                     {
@@ -1194,7 +1194,7 @@ let menuItems = [
                 reference: 'deltadim-teksui:artibun',
             },
             {
-                reference: 'deltadim-teksui:skitty',
+                reference: 'deltadim-chromasia:skitty',
             },
             {
                 reference: 'missing:gamma',
@@ -1808,61 +1808,6 @@ let menuItems = [
                 image: 'images/i/elise-i.png',
             },
             {
-                cardId: 'skitty',
-                title: 'Singularikitty',
-                subtitle: '',
-                detail: `
-                Singularikitty is a black cat with red fur on his arms and legs, orange eyes, and a ring on the tip of his tail. He always wears a collar that holds a small black hole which they can deploy anytime.<br>
-                <br>
-                Skitty's eyes and mouth essentially function as black holes, which sucks in anything that gets nearby. However, she doesn't use this power to harm others, as she is a very kind and gentle cat. She constantly warn people to not get nearby his face for that matter.<br>
-                <br>
-                Skitty has an ability to grow or shrink in size as he pleases. He also can toggle the black hole on his collar whenever he wants.<br>
-                <br>
-                'DESTROYER' is the name Skitty given to his black hole.`,
-
-                isCharacter: true,
-                species: 'Cat',
-                pronouns: 'Any Pronouns',
-                gender: 'Polygender',
-                sexuality: 'Aroace',
-                aliases: 'Skitty',
-                characterAttrs: {
-                    'Design Origin': '<a href="https://x.com/C0denameDelta" target="_blank">C0denameDelta</a>',
-                },
-                extra: '',
-                refsheet: 'images/r/skitty-r.png',
-                gallery: [
-                    'images/c/skitty-c.png',
-                    'images/c/skitty-c2.png',
-                    'images/c/skitty-c3.png',
-                    'images/c/skitty-c4.png',
-                    'images/c/skitty-c5.png',
-                    'images/c/skitty-c6.png',
-                    'images/c/skitty-c7.png',
-                    'images/c/skitty-c8.png',
-                    'images/c/skitty-c9.png',
-                    'images/c/skitty-c10.png',
-                    'images/c/skitty-c11.png',
-                    'images/c/skitty-c12.png',
-                    'images/c/skitty-c13.png',
-                    'images/c/skitty-c14.png',
-                    'images/c/skitty-c15.png',
-                    'images/c/skitty-c16.png',
-                ],
-                relatives: [
-                    {
-                        cardId: 'missing:gamma',
-                        relation: 'Spacekitty Trio'
-                    },
-                    {
-                        cardId: 'deltadim-teksui:micro',
-                        relation: 'Spacekitty Trio'
-                    },
-                ],
-
-                image: 'images/i/skitty-i.png',
-            },
-            {
                 cardId: 'micro',
                 title: 'Micro',
                 subtitle: '',
@@ -1904,7 +1849,7 @@ let menuItems = [
                         relation: 'Spacekitty Trio'
                     },
                     {
-                        cardId: 'deltadim-teksui:skitty',
+                        cardId: 'deltadim-chromasia:skitty',
                         relation: 'Spacekitty Trio'
                     },
                 ],
@@ -2143,7 +2088,7 @@ let menuItems = [
                 ],
                 relatives: [
                     {
-                        cardId: 'deltadim-aakik:ellie',
+                        cardId: 'deltadim-chromasia:ellie',
                         relation: 'Married'
                     },
                 ],
@@ -2176,6 +2121,32 @@ let menuItems = [
                 ],
 
                 image: 'images/i/artitri-i.png',
+            },
+            {
+                cardId: 'artilotl',
+                title: 'Artilotl',
+                subtitle: '',
+                detail: '',
+
+                isCharacter: true,
+                species: 'Axolotl',
+                pronouns: 'They/It',
+                gender: 'Genderless',
+                sexuality: 'Aromantic',
+                aliases: 'Arti, Xio',
+                extra: '',
+                refsheet: '',
+                gallery: [
+                    'images/c/artilotl-c3.png',
+                    'images/c/artilotl-c.png',
+                    'images/c/artilotl-c2.png',
+                    'images/c/artilotl-c4.png',
+                    'images/c/artilotl-c5.png',
+                    'images/c/artilotl-c6.png',
+                    'images/c/artilotl-c7.png',
+                ],
+
+                image: 'images/i/artilotl-i.png',
             },
             {
                 cardId: 'artibot',
@@ -2261,7 +2232,85 @@ let menuItems = [
 
                 image: 'images/i/artidragon-i.png',
             },
-            // ------------------------------
+            {
+                cardId: 'skitty',
+                title: 'Singularikitty',
+                subtitle: '',
+                detail: `
+                Singularikitty is a black cat with red fur on his arms and legs, orange eyes, and a ring on the tip of his tail. He always wears a collar that holds a small black hole which they can deploy anytime.<br>
+                <br>
+                Skitty's eyes and mouth essentially function as black holes, which sucks in anything that gets nearby. However, she doesn't use this power to harm others, as she is a very kind and gentle cat. She constantly warn people to not get nearby his face for that matter.<br>
+                <br>
+                Skitty has an ability to grow or shrink in size as he pleases. He also can toggle the black hole on his collar whenever he wants.<br>
+                <br>
+                'DESTROYER' is the name Skitty given to his black hole.`,
+
+                isCharacter: true,
+                species: 'Cat',
+                pronouns: 'Any Pronouns',
+                gender: 'Polygender',
+                sexuality: 'Aroace',
+                aliases: 'Skitty',
+                characterAttrs: {
+                    'Design Origin': '<a href="https://x.com/C0denameDelta" target="_blank">C0denameDelta</a>',
+                },
+                extra: '',
+                refsheet: 'images/r/skitty-r.png',
+                gallery: [
+                    'images/c/skitty-c.png',
+                    'images/c/skitty-c2.png',
+                    'images/c/skitty-c3.png',
+                    'images/c/skitty-c4.png',
+                    'images/c/skitty-c5.png',
+                    'images/c/skitty-c6.png',
+                    'images/c/skitty-c7.png',
+                    'images/c/skitty-c8.png',
+                    'images/c/skitty-c9.png',
+                    'images/c/skitty-c10.png',
+                    'images/c/skitty-c11.png',
+                    'images/c/skitty-c12.png',
+                    'images/c/skitty-c13.png',
+                    'images/c/skitty-c14.png',
+                    'images/c/skitty-c15.png',
+                    'images/c/skitty-c16.png',
+                ],
+                relatives: [
+                    {
+                        cardId: 'missing:gamma',
+                        relation: 'Spacekitty Trio'
+                    },
+                    {
+                        cardId: 'deltadim-teksui:micro',
+                        relation: 'Spacekitty Trio'
+                    },
+                ],
+
+                image: 'images/i/skitty-i.png',
+            },
+            {
+                cardId: 'mu',
+                title: 'Mu',
+                subtitle: '',
+                detail: '',
+
+                isCharacter: true,
+                species: '"Cabbit"',
+                pronouns: 'She/Any',
+                gender: 'Genderless',
+                sexuality: 'Aroace',
+                aliases: 'μ',
+                extra: '',
+                refsheet: 'images/r/mu-r.png',
+                gallery: [],
+                relatives: [
+                    {
+                        cardId: 'floriverse-delta:fvdWina',
+                        relation: 'Multiversal Friend'
+                    },
+                ],
+
+                image: 'images/i/mu-i.png',
+            },
             {
                 cardId: 'willow',
                 title: 'Willow',
@@ -2464,6 +2513,33 @@ let menuItems = [
                 image: 'images/i/nameless-i.png',
             },
             {
+                cardId: 'ellie',
+                title: 'Ellie',
+                subtitle: '',
+                detail: '',
+
+                isCharacter: true,
+                species: 'Catgirl',
+                pronouns: 'She/It',
+                gender: 'Trans-female',
+                sexuality: 'Demisexual',
+                aliases: '',
+                extra: '',
+                refsheet: '',
+                gallery: [
+                    'images/c/ellie-c.png',
+                    'images/c/ellie-c2.png',
+                ],
+                relatives: [
+                    {
+                        cardId: 'deltadim-chromasia:artiferret',
+                        relation: 'Married'
+                    },
+                ],
+
+                image: 'images/i/ellie-i.png',
+            },
+            {
                 cardId: 'nuki',
                 title: 'Nuki',
                 subtitle: '',
@@ -2596,33 +2672,6 @@ let menuItems = [
                 image: 'images/i/artiproto-i.png',
             },
             {
-                cardId: 'ellie',
-                title: 'Ellie',
-                subtitle: '',
-                detail: '',
-
-                isCharacter: true,
-                species: 'Catgirl',
-                pronouns: 'She/It',
-                gender: 'Trans-female',
-                sexuality: 'Demisexual',
-                aliases: '',
-                extra: '',
-                refsheet: '',
-                gallery: [
-                    'images/c/ellie-c.png',
-                    'images/c/ellie-c2.png',
-                ],
-                relatives: [
-                    {
-                        cardId: 'deltadim-chromasia:artiferret',
-                        relation: 'Married'
-                    },
-                ],
-
-                image: 'images/i/ellie-i.png',
-            },
-            {
                 cardId: 'amber',
                 title: 'Amber',
                 subtitle: '',
@@ -2701,32 +2750,6 @@ let menuItems = [
         parent: 'deltadim',
         hidden: true,
         cards: [
-            {
-                cardId: 'artilotl',
-                title: 'Artilotl',
-                subtitle: '',
-                detail: '',
-
-                isCharacter: true,
-                species: 'Axolotl',
-                pronouns: 'They/It',
-                gender: 'Genderless',
-                sexuality: 'Aromantic',
-                aliases: 'Arti, Xio',
-                extra: '',
-                refsheet: '',
-                gallery: [
-                    'images/c/artilotl-c3.png',
-                    'images/c/artilotl-c.png',
-                    'images/c/artilotl-c2.png',
-                    'images/c/artilotl-c4.png',
-                    'images/c/artilotl-c5.png',
-                    'images/c/artilotl-c6.png',
-                    'images/c/artilotl-c7.png',
-                ],
-
-                image: 'images/i/artilotl-i.png',
-            },
             {
                 cardId: 'articani',
                 title: 'Articani',
@@ -4389,7 +4412,7 @@ let menuItems = [
                 detail: '',
                 relatives: [
                     {
-                        cardId: 'nansenz:mu',
+                        cardId: 'deltadim-chromasia:mu',
                         relation: 'Multiversal Friend'
                     },
                     {
@@ -6888,30 +6911,6 @@ let menuItems = [
             },
             {
                 linkId: 'nansenz-thingamaland',
-            },
-            {
-                cardId: 'mu',
-                title: 'Mu',
-                subtitle: '',
-                detail: '',
-
-                isCharacter: true,
-                species: '"Cabbit"',
-                pronouns: 'She/Any',
-                gender: 'Genderless',
-                sexuality: 'Aroace',
-                aliases: 'μ',
-                extra: '',
-                refsheet: 'images/r/mu-r.png',
-                gallery: [],
-                relatives: [
-                    {
-                        cardId: 'floriverse-delta:fvdWina',
-                        relation: 'Multiversal Friend'
-                    },
-                ],
-
-                image: 'images/i/mu-i.png',
             },
             {
                 cardId: 'cancerman',
