@@ -1022,7 +1022,7 @@ function emojiHandler() {
             const emojiName = match[1].toLowerCase();
             if (emojiList.includes(emojiName)) {
                 const img = document.createElement('img');
-                img.src = `/emojis/${emojiName}.png`;
+                img.src = `/fyberverse/emojis/${emojiName}.png`;
                 img.alt = match[0];
                 img.className = 'emoji';
                 img.draggable = false;
