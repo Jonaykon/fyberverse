@@ -1065,7 +1065,7 @@ let menuItems = [
                 ],
                 relatives: [
                     {
-                        cardId: 'deltadim-chromasia:skitty',
+                        cardId: 'yolkspocketdimension:skitty',
                         relation: 'Spacekitty Trio'
                     },
                     {
@@ -1147,7 +1147,7 @@ let menuItems = [
                         relation: 'Spacekitty Trio'
                     },
                     {
-                        cardId: 'deltadim-chromasia:skitty',
+                        cardId: 'yolkspocketdimension:skitty',
                         relation: 'Spacekitty Trio'
                     },
                 ],
@@ -1251,6 +1251,9 @@ let menuItems = [
                 ],
                 image: 'images/flories/fve-corrode.png'
             },
+            {
+                reference: 'yolkspocketdimension:skitty',
+            },
         ]
     },
 
@@ -1345,7 +1348,7 @@ let menuItems = [
                 reference: 'deltadim-teksui:artibun',
             },
             {
-                reference: 'deltadim-chromasia:skitty',
+                reference: 'yolkspocketdimension:skitty',
             },
             {
                 reference: 'missing:gamma',
@@ -2333,61 +2336,6 @@ let menuItems = [
                 ],
 
                 image: 'images/i/artidragon-i.png',
-            },
-            {
-                cardId: 'skitty',
-                title: 'Singularikitty',
-                subtitle: '',
-                detail: `
-                Singularikitty is a black cat with red fur on his arms and legs, orange eyes, and a ring on the tip of his tail. He always wears a collar that holds a small black hole which they can deploy anytime.<br>
-                <br>
-                Skitty's eyes and mouth essentially function as black holes, which sucks in anything that gets nearby. However, she doesn't use this power to harm others, as she is a very kind and gentle cat. She constantly warn people to not get nearby his face for that matter.<br>
-                <br>
-                Skitty has an ability to grow or shrink in size as he pleases. He also can toggle the black hole on his collar whenever he wants.<br>
-                <br>
-                'DESTROYER' is the name Skitty given to his black hole.`,
-
-                isCharacter: true,
-                species: 'Cat',
-                pronouns: 'Any Pronouns',
-                gender: 'Polygender',
-                sexuality: 'Aroace',
-                aliases: 'Skitty',
-                characterAttrs: {
-                    'Design Origin': '<a href="https://x.com/C0denameDelta" target="_blank">C0denameDelta</a>',
-                },
-                extra: '',
-                refsheet: 'images/r/skitty-r.png',
-                gallery: [
-                    'images/c/skitty-c.png',
-                    'images/c/skitty-c2.png',
-                    'images/c/skitty-c3.png',
-                    'images/c/skitty-c4.png',
-                    'images/c/skitty-c5.png',
-                    'images/c/skitty-c6.png',
-                    'images/c/skitty-c7.png',
-                    'images/c/skitty-c8.png',
-                    'images/c/skitty-c9.png',
-                    'images/c/skitty-c10.png',
-                    'images/c/skitty-c11.png',
-                    'images/c/skitty-c12.png',
-                    'images/c/skitty-c13.png',
-                    'images/c/skitty-c14.png',
-                    'images/c/skitty-c15.png',
-                    'images/c/skitty-c16.png',
-                ],
-                relatives: [
-                    {
-                        cardId: 'missing:gamma',
-                        relation: 'Spacekitty Trio'
-                    },
-                    {
-                        cardId: 'deltadim-teksui:micro',
-                        relation: 'Spacekitty Trio'
-                    },
-                ],
-
-                image: 'images/i/skitty-i.png',
             },
             {
                 cardId: 'willow',
@@ -9916,6 +9864,62 @@ let menuItems = [
                 detail:
                     ``,
                 image: 'icons/whitespace.png',
+            },
+            {
+                cardId: 'skitty',
+                title: 'Singularikitty',
+                subtitle: '',
+                detail: `
+                Singularikitty is a black cat with red fur on his arms and legs, orange eyes, and a ring on the tip of his tail. He always wears a collar that holds a small black hole which they can deploy anytime.<br>
+                <br>
+                Skitty's eyes and mouth essentially function as black holes, which sucks in anything that gets nearby. However, she doesn't use this power to harm others, as she is a very kind and gentle cat. She constantly warn people to not get nearby his face for that matter.<br>
+                <br>
+                Skitty has an ability to grow or shrink in size as he pleases. He also can toggle the black hole on his collar whenever he wants.<br>
+                <br>
+                'DESTROYER' is the name Skitty given to his black hole.`,
+
+                isCharacter: true,
+                species: 'Cat',
+                pronouns: 'Any Pronouns',
+                gender: 'Polygender',
+                sexuality: 'Aroace',
+                aliases: 'Skitty',
+                characterAttrs: {
+                    'Design Origin': '<a href="https://x.com/C0denameDelta" target="_blank">C0denameDelta</a>',
+                    'Realm Origin': '<a data-open-card="deltadim-chromasia">Deltadim - Chromasia</a>',
+                },
+                extra: '',
+                refsheet: 'images/r/skitty-r.png',
+                gallery: [
+                    'images/c/skitty-c.png',
+                    'images/c/skitty-c2.png',
+                    'images/c/skitty-c3.png',
+                    'images/c/skitty-c4.png',
+                    'images/c/skitty-c5.png',
+                    'images/c/skitty-c6.png',
+                    'images/c/skitty-c7.png',
+                    'images/c/skitty-c8.png',
+                    'images/c/skitty-c9.png',
+                    'images/c/skitty-c10.png',
+                    'images/c/skitty-c11.png',
+                    'images/c/skitty-c12.png',
+                    'images/c/skitty-c13.png',
+                    'images/c/skitty-c14.png',
+                    'images/c/skitty-c15.png',
+                    'images/c/skitty-c16.png',
+                ],
+                relatives: [
+                    {
+                        cardId: 'missing:gamma',
+                        relation: 'Spacekitty Trio'
+                    },
+                    {
+                        cardId: 'deltadim-teksui:micro',
+                        relation: 'Spacekitty Trio'
+                    },
+                ],
+
+                image: 'images/i/skitty-i.png',
             },
         ]
     },
