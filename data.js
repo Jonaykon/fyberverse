@@ -1154,6 +1154,103 @@ let menuItems = [
 
                 image: 'images/i/micro-i.png',
             },
+            {
+                cardId: 'mu',
+                title: 'Mu',
+                subtitle: '',
+                detail: '',
+
+                isCharacter: true,
+                species: '"Cabbit"',
+                pronouns: 'She/Any',
+                gender: 'Genderless',
+                sexuality: 'Aroace',
+                aliases: 'μ',
+                extra: '',
+                characterAttrs: {
+                    'Realm Origin': '<a data-open-card="deltadim-chromasia">Deltadim - Chromasia</a>',
+                },
+                refsheet: 'images/r/mu-r.png',
+                gallery: [],
+                relatives: [
+                    {
+                        cardId: 'missing:fvdWina',
+                        relation: 'Multiversal Friend'
+                    },
+                ],
+
+                image: 'images/i/mu-i.png',
+            },
+            {
+                cardId: 'fvdWina',
+                title: 'Wina',
+                subtitle: '',
+                isCharacter: true,
+                species: 'Charred flower',
+                pronouns: 'She',
+                gender: 'Female',
+                characterAttrs: {
+                    'Realm Origin': '<a data-open-card="florieverse-delta">Florivere : Delta</a>',
+                },
+                gallery: ['images/flories/fvd-wina.png'],
+                detail: '',
+                relatives: [
+                    {
+                        cardId: 'missing:mu',
+                        relation: 'Multiversal Friend'
+                    },
+                    {
+                        cardId: 'missing:fveCorrode',
+                        relation: 'Cousin'
+                    },
+                ],
+                sections: [
+                    {
+                        title: 'Song',
+                        detail: `
+                            <h1>SRLAOANOEETVLEEYDS</h1>
+                            Released: March 3rd, 2024<br>
+                            Length: 4m 28s<br>
+                            BPM: 201<br>
+                            Time signature: 4/4<br>
+                        `
+                    }
+                ],
+                image: 'images/flories/fvd-wina.png'
+            },
+            {
+                cardId: 'fveCorrode',
+                title: 'Corrode',
+                subtitle: '',
+                isCharacter: true,
+                species: 'Charred tulip',
+                pronouns: 'He',
+                gender: 'Male',
+                characterAttrs: {
+                    'Realm Origin': '<a data-open-card="florieverse-epsilon">Florivere : Epsilon</a>',
+                },
+                gallery: ['images/flories/fve-corrode.png'],
+                detail: '',
+                relatives: [
+                    {
+                        cardId: 'missing:fvdWina',
+                        relation: 'Cousin'
+                    },
+                ],
+                sections: [
+                    {
+                        title: 'Song',
+                        detail: `
+                            <h1>へへ</h1>
+                            Released: June 4th, 2025<br>
+                            Length: 3m 40s<br>
+                            BPM: 240<br>
+                            Time signature: 4/4<br>
+                        `
+                    }
+                ],
+                image: 'images/flories/fve-corrode.png'
+            },
         ]
     },
 
@@ -2293,30 +2390,6 @@ let menuItems = [
                 image: 'images/i/skitty-i.png',
             },
             {
-                cardId: 'mu',
-                title: 'Mu',
-                subtitle: '',
-                detail: '',
-
-                isCharacter: true,
-                species: '"Cabbit"',
-                pronouns: 'She/Any',
-                gender: 'Genderless',
-                sexuality: 'Aroace',
-                aliases: 'μ',
-                extra: '',
-                refsheet: 'images/r/mu-r.png',
-                gallery: [],
-                relatives: [
-                    {
-                        cardId: 'floriverse-delta:fvdWina',
-                        relation: 'Multiversal Friend'
-                    },
-                ],
-
-                image: 'images/i/mu-i.png',
-            },
-            {
                 cardId: 'willow',
                 title: 'Willow',
                 subtitle: '',
@@ -2993,7 +3066,7 @@ let menuItems = [
                 reference: 'floriverse-vanilla:fvvFurflow',
             },
             {
-                reference: 'floriverse-delta:fvdWina',
+                reference: 'missing:fvdWina',
             },
             {
                 reference: 'floriverse-epsilon:fveMisty',
@@ -4406,40 +4479,6 @@ let menuItems = [
                 image: 'images/flories/fvd-starlila.png'
             },
             {
-                cardId: 'fvdWina',
-                title: 'Wina',
-                subtitle: '',
-                isCharacter: true,
-                species: 'Charred flower',
-                pronouns: 'She',
-                gender: 'Female',
-                gallery: ['images/flories/fvd-wina.png'],
-                detail: '',
-                relatives: [
-                    {
-                        cardId: 'deltadim-chromasia:mu',
-                        relation: 'Multiversal Friend'
-                    },
-                    {
-                        cardId: 'floriverse-epsilon:fveCorrode',
-                        relation: 'Cousin'
-                    },
-                ],
-                sections: [
-                    {
-                        title: 'Song',
-                        detail: `
-                            <h1>SRLAOANOEETVLEEYDS</h1>
-                            Released: March 3rd, 2024<br>
-                            Length: 4m 28s<br>
-                            BPM: 201<br>
-                            Time signature: 4/4<br>
-                        `
-                    }
-                ],
-                image: 'images/flories/fvd-wina.png'
-            },
-            {
                 cardId: 'fvdFret',
                 title: 'Fret',
                 subtitle: '',
@@ -5360,36 +5399,6 @@ let menuItems = [
                     }
                 ],
                 image: 'images/flories/fve-zest.png'
-            },
-            {
-                cardId: 'fveCorrode',
-                title: 'Corrode',
-                subtitle: '',
-                isCharacter: true,
-                species: 'Charred tulip',
-                pronouns: 'He',
-                gender: 'Male',
-                gallery: ['images/flories/fve-corrode.png'],
-                detail: '',
-                relatives: [
-                    {
-                        cardId: 'floriverse-delta:fvdWina',
-                        relation: 'Cousin'
-                    },
-                ],
-                sections: [
-                    {
-                        title: 'Song',
-                        detail: `
-                            <h1>へへ</h1>
-                            Released: June 4th, 2025<br>
-                            Length: 3m 40s<br>
-                            BPM: 240<br>
-                            Time signature: 4/4<br>
-                        `
-                    }
-                ],
-                image: 'images/flories/fve-corrode.png'
             },
             {
                 cardId: 'fveAmalgamapot',
@@ -7759,7 +7768,7 @@ let menuItems = [
                             ${internalCard({ href: "floriverse-epsilon:fveBell", image: 'images/music/floriverse-epsilon/underthemistletoe.webp', banner: true, title: "21 - Under The Mistletoe", subtitle: "02:45" })}
                             ${internalCard({ href: "floriverse-epsilon:fveNila", image: 'images/music/floriverse-epsilon/midnighthoneyii.webp', banner: true, title: "22 - Midnight Honey II", subtitle: "03:24" })}
                             ${internalCard({ href: "floriverse-epsilon:fveZest", image: 'images/music/floriverse-epsilon/zestylemonade.webp', banner: true, title: "23 - Zesty Lemonade", subtitle: "02:02" })}
-                            ${internalCard({ href: "floriverse-epsilon:fveCorrode", image: 'images/music/floriverse-epsilon/floriverse-epsilon-24.webp', banner: true, title: "24 - へへ", subtitle: "03:40" })}
+                            ${internalCard({ href: "missing:fveCorrode", image: 'images/music/floriverse-epsilon/floriverse-epsilon-24.webp', banner: true, title: "24 - へへ", subtitle: "03:40" })}
                             ${internalCard({ href: "floriverse-epsilon:fveAmalgamapot", image: 'images/music/floriverse-epsilon/flashbackverse.webp', banner: true, title: "25 - Flashbackverse", subtitle: "02:21" })}
                             ${internalCard({ href: "floriverse-epsilon:fvePosie", image: 'images/music/floriverse-epsilon/quintupetals.webp', banner: true, title: "26 - Quintupetals", subtitle: "02:26" })}
                             ${internalCard({ href: "floriverse-epsilon:fveNonsense", image: 'images/music/floriverse-epsilon/nonsenseflower.webp', banner: true, title: "27 - Nonsense Flower", subtitle: "04:03" })}
@@ -7828,7 +7837,7 @@ let menuItems = [
                             ${internalCard({ href: "floriverse-delta:fvdPipix", image: 'images/music/floriverse-delta/pixelflorie.webp', banner: true, title: "17 - Pixel Florie", subtitle: "03:02" })}
                             ${internalCard({ href: "floriverse-delta:fvdPico", image: 'images/music/floriverse-delta/pico.webp', banner: true, title: "18 - Pico", subtitle: "02:47" })}
                             ${internalCard({ href: "floriverse-delta:fvdStarlila", image: 'images/music/floriverse-delta/iloveyou.webp', banner: true, title: "19 - I Love You!!!", subtitle: "02:08" })}
-                            ${internalCard({ href: "floriverse-delta:fvdWina", image: 'images/music/floriverse-delta/srlaoanoeetvleeyds.webp', banner: true, title: "20 - SRLAOANOEETVLEEYDS", subtitle: "04:28" })}
+                            ${internalCard({ href: "missing:fvdWina", image: 'images/music/floriverse-delta/srlaoanoeetvleeyds.webp', banner: true, title: "20 - SRLAOANOEETVLEEYDS", subtitle: "04:28" })}
                             ${internalCard({ href: "floriverse-delta:fvdFret", image: 'images/music/floriverse-delta/metalplatepetalmelta.webp', banner: true, title: "21 - Metal Plate Petal Melta", subtitle: "03:38" })}
                             ${internalCard({ href: "floriverse-delta:fvdAzka", image: 'images/music/floriverse-delta/ascension.webp', banner: true, title: "22 - Ascension", subtitle: "02:47" })}
                             ${internalCard({ href: "floriverse-delta:fvdCherro", image: 'images/music/floriverse-delta/tomato.webp', banner: true, title: "23 - Tomato", subtitle: "03:13" })}
